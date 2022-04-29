@@ -1,0 +1,1 @@
+ml.exe /AT main.asm
