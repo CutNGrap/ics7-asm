@@ -44,11 +44,11 @@ int main()
     my_copy(before, middle, len + 1);
     printf("    COPY: %s\n\n", before);
 
-    printf("Copy after:\nORIGINAL: %s\n",middle);
-    my_copy(after, middle, len + 1);
+    printf("Copy after:\nORIGINAL: %s\n",before);
+    my_copy(after, before, len + 1);
     printf("    COPY: %s\n\n", after);
 
 
-
+// 
     return 0;
 }
