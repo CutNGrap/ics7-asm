@@ -18,10 +18,10 @@ Code SEGMENT dword 'CODE'
 DispMsg:
  mov CX, 3
 PrintWord:
-    mov al, -128
-    add al, -1
+    mov ah, 2
+    mov al, '4'
+    int 21h
 
-    mov BL, ES:susus
  mov AH,4Ch ;АН=4Ch завершить процесс
  int 21h ;вызов функции DOS
 Code ENDS
